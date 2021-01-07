@@ -1,0 +1,229 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+}
+
+/**************************************
+ Header Section css style start here 
+ **************************************/
+.header{
+    width: 100%;
+    display: flow-root;
+    
+}
+.nav-ber{
+    width: 100%;
+    float: left;
+    padding: 40px 0px;
+}
+header .logo{
+    width: 25%;
+    float: left;
+    cursor: pointer;
+}
+header .menu{
+    width: 75%;
+    float: right;
+    text-align: right;
+}
+header ul li{
+    list-style: none;
+    display: inline-block;
+}
+header ul li a{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #777777;
+    margin-left: 65px;    
+}
+header ul li a:hover{
+    color: black;
+}
+ /**************************************
+ Header Section css style end here 
+ **************************************/
+
+  /**************************************
+ Main Section css style start here 
+ **************************************/
+ .main-post{
+    width: 100%;
+    display: flow-root;
+}
+.description{
+    padding: 70px;
+}
+.description h4{
+    font-family:  'Ubuntu', sans-serif;
+    color: #c0c0c0;
+    font-weight: 400;
+}
+.description h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    color: #5e5c5c;
+    margin: 20px 0px;
+}
+.description p{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #777777;
+}
+.description a{
+    font-family:  'Ubuntu', sans-serif;
+    color: #b86e6e;
+    font-weight: 400;
+}
+
+   /**************************************
+ Main Section css style end here 
+ **************************************/
+
+ /**************************************
+ single post Section css style start here 
+ **************************************/
+ .posts{
+    width: 100%;
+    display: flow-root;
+}
+.gallery{
+    width: 100%;
+    float: left;
+    padding: 70px;
+}
+
+.left-post{
+    width: 50%;
+    float: left;
+}
+.right-post{
+    width: 50%;
+    float: left;
+}
+.extra-1{
+    padding-right: 20px;
+}
+.extra-2{
+    padding-right: 20px;
+}
+.left-post h4, .right-post h4{
+    font-family:  'Ubuntu', sans-serif;
+    color: #c0c0c0;
+    font-weight: 400;
+}
+.left-post h1, .right-post h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    color: #5e5c5c;
+    margin: 20px 0px;
+}
+.left-post p, .right-post p{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #777777;
+}
+
+  /**************************************
+ single post Section css style end here 
+ **************************************/
+
+ /**************************************
+ Newsletter Section css style start here 
+ **************************************/
+.newsletter{
+    width: 100%;
+    display: flow-root;
+    text-align: center;
+    padding: 80px 0px;
+    background-color: #f0f0f0;
+}
+.newsletter .form{
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+}
+.newsletter h1{
+    font-weight: 500;
+    color: #5e5c5c;
+    margin: 20px 0px;
+}
+.newsletter input{
+    border: none;
+    border-bottom: 2px solid #777777;
+    background-color: transparent;
+    width: 30%;
+    margin-right: 36px;
+    padding: 15px 2px;
+}
+.newsletter input::placeholder{
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+}
+
+.newsletter .form input:focus{
+    outline: 0px;
+    border-color: rgb(184, 85, 46);
+}
+
+
+
+ /**************************************
+ Newsletter Section css style end here 
+ **************************************/
+
+
+ /**************************************
+ footer Section css style start here 
+ **************************************/
+footer{
+    width: 100%;
+    display: flow-root;
+    padding: 35px 0px;
+    background-color: #f0f0f0;
+}
+
+.footer-menu{
+    float: left;
+}
+.footer-icon{
+    float: right;
+}
+.footer-menu li, .footer-icon li{
+    list-style: none;
+    display: inline-block;
+}
+.footer-menu li a{
+    color: black;
+    margin-right: 40px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.footer-icon li a{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #626262;
+    padding-left: 30px;
+}
+.footer-icon .fev{
+    color: black !important;
+}
+
+ /**************************************
+ footer Section css style end here 
+ **************************************/
+
+
+
+
